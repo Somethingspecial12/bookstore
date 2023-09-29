@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8">
+	<meta name="viewport" content="width= device-width, initial-scale=1">
+	<title>bookstore</title>
+	<style type="text/css">
+		*{
+			text-decoration: none;
+		}
+		.navbar{
+			background-color: crimson; font-family: calibri; padding-right: 15px; padding-left: 15px;
+		}
+		.navdiv{
+			display: flex; align-items: center; justify-content: space-between;		
+					
+		}
+		.logo a{
+			font-size: 35px; font-weight: 600; color: white;		
+		}
+		li{
+			list-style: none; display: inline-block;
+		}
+		
+		li a{
+			color: white; font-size: 18px; font-weight:bold; margin-right:25px;		
+		}
+		
+		.flip-card {
+			padding: 20px;
+			background-color: transparent;
+			width: 300px;
+			height: 300px;
+			perspective: 1000px;
+			display: inline-block;
+		}
+
+		.flip-card-inner {
+			position: relative;
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			transition: transform 0.6s;
+			transform-style: preserve-3d;
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		}
+
+		.flip-card:hover .flip-card-inner {
+			transform: rotateY(180deg);
+		}
+
+		.flip-card-front, .flip-card-back {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+		}
+
+		.flip-card-front {
+			background-color: #bbb;
+			color: black;
+		}
+
+		.flip-card-back {
+			background-color: #2980b9;
+			color: white;
+			transform: rotateY(180deg);
+		}
+	</style>
+	
+</head>
+
+<body>
+	<nav class="navbar">
+		<div class= "navdiv">
+			<div class ="logo"> <a href="#"> Esther's store </a> </div>
+			<ul>
+
+				<li><a href="D:/msu garbage/webprogramming/books.html"> Books  </a></li>
+				<li><a href="D:/msu garbage/webprogramming/stationary.html"> Stationaries </a></li>
+	
+			</ul>
+			
+		</div>
+	</nav>
+<!-------------------------------------------------------------List of stationaries-------------------------------------------------------------------------------->	
+
+
+	
+	<div class="flip-card">
+		<div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="Papermate ink joy stick pens.jpg" alt="Avatar" style="width:300px;height:300px;">
+			</div>
+			<div class="flip-card-back">
+				<h1>Papermate Inkjoy Stick Pens 10/Pkg</h1>
+					<p>RM 6.50</p>
+					
+			</div>
+		</div>
+	</div>
+	
+	<div class="flip-card">
+		<div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="calculator.jpg" alt="Avatar" style="width:300px;height:300px;">
+			</div>
+			<div class="flip-card-back">
+				<h1>El-510Rtb Calculator Scientific 169 Function</h1>
+					<p>RM 60</p>
+			
+			</div>
+		</div>
+	</div>
+	
+	<div class="flip-card">
+		<div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="foldback clips.jpg" alt="Avatar" style="width:300px;height:300px;">
+			</div>
+			<div class="flip-card-back">
+				<h1>Fold Back Clip 1.25 12 Per Box</h1>
+					<p>RM 8.10<p>
+					
+			</div>
+		</div>
+	</div>
+	
+	<div class="flip-card">
+		<div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="horizontal clear cardholder.jpg" alt="Avatar" style="width:300px;height:300px;">
+			</div>
+			<div class="flip-card-back">
+				<h1>Horizontal Clear Card Holder</h1>
+					<p>RM 3.80</p>
+			</div>		
+		</div>
+	</div>
+	
+	<div class="flip-card">
+		<div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="highlighter.jpg" alt="Avatar" style="width:300px;height:300px;">
+			</div>
+			<div class="flip-card-back">
+				<h1>Textsurfer Classic Highlighter Yellow</h1>
+					<p>RM 4.00</p>
+					
+			</div>
+		</div>
+	</div>
+	
+	<div class="flip-card">
+		<div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="bluehighlighter.jpg" alt="Avatar" style="width:300px;height:300px;">
+			</div>
+			<div class="flip-card-back">
+				<h1>Textsurfer Classic Highlighter Blue Bulk</h1>
+					<p>RM 4.00</p>
+					
+			</div>
+		</div>
+	</div>
+	
+	<div class="flip-card">
+		<div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="erasers.jpg" alt="Avatar" style="width:300px;height:300px;">
+			</div>
+			<div class="flip-card-back">
+				<h1>Eraser Mars Plastic</h1>
+					<p>RM 1.80 </p>
+					
+			</div>
+		</div>
+	</div>
+	
+
+	
+	<div class="flip-card">
+		<div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="glue.jpg" alt="Avatar" style="width:300px;height:300px;">
+			</div>
+			<div class="flip-card-back">
+				<h1>Uhu Glue Stick 8.2G</h1>
+					<p>RM 3.20</p>
+					
+			</div>
+		</div>
+	</div>
+	
+	<div class="flip-card">
+		<div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="paperclips.jpg" alt="Avatar" style="width:300px;height:300px;">
+			</div>
+			<div class="flip-card-back">
+				<h1>Paper Clips No 1 Plain 1.25 Inch 100 Per Box</h1>
+					<p>RM 2.90</p>
+					
+			</div>
+		</div>
+	</div>
+	
+	<div class="flip-card">
+		<div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="wetmarkers-nonperm.jpg" alt="Avatar" style="width:300px;height:300px;">
+			</div>
+			<div class="flip-card-back">
+				<h1>Wet Erase Markers Non-Perm 4pk</h1>
+					<p>RM 5.00 </p>
+					
+			</div>
+		</div>
+	</div>
+	
+
+	
+
+	
+	<div class="flip-card">
+		<div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="retractable badge holder.jpg" alt="Avatar" style="width:300px;height:300px;">
+			</div>
+			<div class="flip-card-back">
+				<h1>Purple Retractable Badge Holder Mustangs Logo</h1>
+					<p>RM 4.50</p>
+					
+			</div>
+		</div>
+	</div>
+	
+	<div class="flip-card">
+		<div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="ruled notebook.jpg" alt="Avatar" style="width:300px;height:300px;">
+			</div>
+			<div class="flip-card-back">
+				<h1>Black Large Ruled Notebook</h1>
+					<p>RM 21.50</p>
+					
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<div class="flip-card">
+		<div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="looneytunes ruled large notebook.jpg" alt="Avatar" style="width:300px;height:300px;">
+			</div>
+			<div class="flip-card-back">
+				<h1>Looney Tunes Bugs Ruled Notebook Large</h1>
+					<p>RM 22.50</p>
+					
+			</div>
+		</div>
+	</div>
+	
+	<div class="flip-card">
+		<div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="blue large ruled notebook.jpg" alt="Avatar" style="width:300px;height:300px;">
+			</div>
+			<div class="flip-card-back">
+				<h1>Blue Large Ruled Notebook</h1>
+					<p>RM 12.50</p>
+					
+			</div>
+		</div>
+	</div>
+	
+	<div class="flip-card">
+		<div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="notebookpocket ruled saphire blue.jpg" alt="Avatar" style="width:300px;height:300px;">
+			</div>
+			<div class="flip-card-back">
+				<h1>Notebook Pocket Ruled Sapphire Blue</h1>
+					<p>RM 22.50</p>
+					
+			</div>
+		</div>
+	</div>
+	
+	<div class="flip-card">
+		<div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="cashierruled notebook.jpg" alt="Avatar" style="width:300px;height:300px;">
+			</div>
+			<div class="flip-card-back">
+				<h1>Cahier Ruled Pocket Black Soft -Set Of 3</h1>
+					<p>RM 25.50</p>
+					
+			</div>
+		</div>
+	</div>
+	
+	<div class="flip-card">
+		<div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="Frixion Roller Ball Clicker 0.5Mm Pink.jpg" alt="Avatar" style="width:300px;height:300px;">
+			</div>
+			<div class="flip-card-back">
+				<h1>Frixion Roller Ball Clicker 0.5Mm Pink</h1>
+					<p>RM 3.50</p>
+					
+			</div>
+		</div>
+	</div>
+	
+	<div class="flip-card">
+		<div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="frixion point roller ball.jpg" alt="Avatar" style="width:300px;height:300px;">
+			</div>
+			<div class="flip-card-back">
+				<h1>Frixion Point Roller Ball 0.5Mm Blue</h1>
+					<p>RM 2.80 </p>
+					
+			</div>
+		</div>
+	</div>
+	
+	<div class="flip-card">
+		<div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="0.5mm clicker ball pen blue.jpg" alt="Avatar" style="width:300px;height:300px;">
+			</div>
+			<div class="flip-card-back">
+				<h1>Frixion Roller Ball Clicker 0.5Mm Blue</h1>
+					<p>RM 2.50</p>
+			
+			</div>
+		</div>
+	</div>
+	
+	<div class="flip-card">
+		<div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="0.7mm clicker black pen.jpg" alt="Avatar" style="width:300px;height:300px;">
+			</div>
+			<div class="flip-card-back">
+				<h1>Frixion Roller Ball Clicker 0.7Mm Black</h1>
+					<p>RM 2.50</p>
+				
+			</div>
+		</div>
+	</div>
+	
+	<div class="flip-card">
+		<div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="0.5Mm clicker black pen.jpg" alt="Avatar" style="width:300px;height:300px;">
+			</div>
+			<div class="flip-card-back">
+				<h1>Frixion Roller Ball Clicker 0.5Mm Black</h1>
+					<p>RM 2.50</p>
+				
+			</div>
+		</div>
+	</div>
+	
+	<div class="flip-card">
+		<div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="0.7Mm clicker blue black.jpg" alt="Avatar" style="width:300px;height:300px;">
+			</div>
+			<div class="flip-card-back">
+				<h1>Frixion Roller Ball Clicker 0.7Mm Blue Black</h1>
+					<p>RM 2.50</p>
+					
+			</div>
+		</div>
+	</div>
+
+	<div class="flip-card">
+		<div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="ballpoint.jpg" alt="Avatar" style="width:300px;height:300px;">
+			</div>
+			<div class="flip-card-back">
+				<h1>Bk440 Retractable 1.0Mm M Tip Ball Point Black</h1>
+					<p>RM 1.80</p>
+					
+			</div>
+		</div>
+	</div>
+	
+	<div class="flip-card">
+		<div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="stabiloBossHighlighter.jpg" alt="Avatar" style="width:300px;height:300px;">
+			</div>
+			<div class="flip-card-back">
+				<h1>Stabilo Boss Highlighter Mint</h1>
+					<p>RM 2.90</p>
+				
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="flip-card">
+		<div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="swingcoolpastelhighlighters.jpg" alt="Avatar" style="width:300px;height:300px;">
+			</div>
+			<div class="flip-card-back">
+				<h1>Swing Cool Pastel Highlighters 4/Pk</h1>
+					<p>RM 7.50</p>
+					
+			</div>
+		</div>
+	</div>
+	
+	<div class="flip-card">
+		<div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="Chisel Tip Highlighter.jpg" alt="Avatar" style="width:300px;height:300px;">
+			</div>
+			<div class="flip-card-back">
+				<h1>Bic Brite Liner 5pk Asst Chisel Tip Highlighter</h1>
+					<p>RM 9.50</p>
+					
+			</div>
+		</div>
+	</div>
+	
+	<div class="flip-card">
+		<div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="highlighter.jpg" alt="Avatar" style="width:300px;height:300px;">
+			</div>
+			<div class="flip-card-back">
+				<h1>Textsurfer Classic Highlighter Yellow</h1>
+					<p>RM 4.00</p>
+					
+			</div>
+		</div>
+	</div>
+	
+	<div class="flip-card">
+		<div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="bluehighlighter.jpg" alt="Avatar" style="width:300px;height:300px;">
+			</div>
+			<div class="flip-card-back">
+				<h1>Textsurfer Classic Highlighter Blue Bulk</h1>
+					<p>RM 4.00</p>
+					
+			</div>
+		</div>
+	</div>
+	
+</body>
